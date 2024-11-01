@@ -1,0 +1,15 @@
+{
+  "name": "receive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "send": "node send.js",
+    "receive": "node receive.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rabbitmq-stream-js-client": "^0.4.2"
+  }
+}
